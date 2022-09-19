@@ -13,13 +13,13 @@ public class task5 {
             int secondNumber = SC.nextInt();
             System.out.println("Введите третье число:"); 
             int thirdNumber = SC.nextInt();
-            if (firtstNumber < secondNumber | firtstNumber < thirdNumber)
+            if (firtstNumber < secondNumber && firtstNumber < thirdNumber)
                 System.out.println("Результат: " + firtstNumber);
-            else if (secondNumber < secondNumber | secondNumber < thirdNumber)
+            else if (secondNumber < secondNumber && secondNumber < thirdNumber)
                 System.out.println("Результат: " + secondNumber);
-            else if (thirdNumber < secondNumber | thirdNumber < firtstNumber)
+            else if (thirdNumber < secondNumber && thirdNumber < firtstNumber)
                 System.out.println("Результат: " + thirdNumber);
-            else 
+            else
                 System.out.println("Введите разные числа");
         }
     }
