@@ -291,7 +291,6 @@ class main {
                 countSim++;
             }
         }
-        //String prev = null;
         System.out.println(countSim);
     }
 
